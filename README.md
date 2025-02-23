@@ -52,7 +52,8 @@ Jeżeli chcesz uruchamiać aplikację lokalnie, zrób jeszcze:
 3. Utwórz plik .env i wklej swój klucz
 ```bash
 cp .env.example .env
-sed -i 's/your_openweathermap_api_key/<twój klucz>/' .env
+sed -i 's/your_openweathermap_api_key/0afb680c9dfded4c05416ef7adcdb3bb
+/' .env
 ```
 
 ## Krok 2 - Tworzenie workflow CI
